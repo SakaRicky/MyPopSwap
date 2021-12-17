@@ -1,0 +1,16 @@
+.root {
+  width: 80%;
+  max-width: 1200px;
+  margin: 10rem auto;
+  color: #fff;
+}
+.root .heading__wrapper {
+  background-color: #95870F;
+}
+.root h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+}
+
+/*# sourceMappingURL=faq.module.css.map */

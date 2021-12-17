@@ -1,0 +1,29 @@
+.faq {
+  margin: 5rem auto;
+  background-color: #6e6e6e;
+  padding: 2rem;
+  border-radius: 15px;
+}
+.faq .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.faq h3 {
+  width: 70%;
+}
+.faq .icon {
+  font-size: 3rem;
+  cursor: pointer;
+  display: inline-block;
+}
+.faq .answer__container {
+  overflow: hidden;
+}
+.faq .answer {
+  margin: 2rem 0;
+  transition: all 500ms ease-in-out;
+}
+
+/*# sourceMappingURL=faqBox.module.css.map */

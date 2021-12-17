@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222222;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}

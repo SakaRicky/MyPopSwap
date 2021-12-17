@@ -1,0 +1,62 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #262626;
+  border-radius: 5px;
+}
+.root .label {
+  margin-bottom: 10px;
+  color: #a6a6a6;
+  font-size: 0.9rem;
+}
+.root .select__zone {
+  border: 3px solid #ebd832;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.root .select__zone .select {
+  display: flex;
+  align-items: center;
+  width: 35%;
+}
+.root .select__zone .select img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.root .select__zone .select .select__input {
+  background-color: #262626;
+  color: #fff;
+  border: none;
+  border-right: 2px solid #a6a6a6;
+  outline: none;
+}
+.root .select__zone .input__number {
+  background-color: #262626;
+  border: none;
+  color: #fff;
+  text-align: right;
+  padding: 10px 0;
+  outline: none;
+  margin-right: 10px;
+  width: 40%;
+}
+.root .select__zone .input__number::-webkit-outer-spin-button, .root .select__zone .input__number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+@media screen and (min-width: 900px) {
+  .root .select__zone .input__number {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .root .select__zone .input__number {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=selectCoin.module.css.map */

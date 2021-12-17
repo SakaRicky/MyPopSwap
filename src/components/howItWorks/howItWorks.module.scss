@@ -1,0 +1,124 @@
+@use '../../Styles/abstract/colors.module';
+
+.root {
+    width: 80%;
+    margin: 5rem auto;
+    color: #fff;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+        background-color: map-get(map-get($map: colors.$colors, $key: primary), 700);
+    }
+}
+
+
+
+.box {
+    margin: 5rem auto;
+
+    .number {
+        font-size: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .text_box {
+        border: 4px solid map-get(map-get($map: colors.$colors, $key: myGrey), 400);
+        border-radius: 1rem;
+        text-align: left;
+        padding: 2rem;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+//media queries
+
+@media screen and (max-width: 1600px) {
+    .text-box {
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (max-width: 1376px) {
+    .text-box {
+        height: 25vh;
+        margin-left: 13rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .text-box {
+        margin-left: 10rem;
+    }
+   
+}
+
+@media  screen  and (max-width: 900px) {
+    .text-box {
+        margin-left: 11rem;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .text-box {
+        height: 30vh;
+    
+    }
+}
+
+@media  screen and (max-width: 760px) {
+    .text-box {
+        margin-left: 13rem;
+    }
+}
+
+@media  screen and (max-width: 714px) {
+    .text-box {
+        height: 35vh;
+    }
+}
+
+@media  screen and (max-width: 670px) {
+    .text-box {
+        margin-left: 15rem;
+    }
+}
+
+
+@media  screen and (max-width: 600px) {
+    .text-box {
+        height: 40vh;
+        width: 30rem;
+        margin-left: 13rem;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .text-box {
+        width: 35rem;
+        margin-left: 11rem;
+        height: 55vh;
+        h2 {
+            font-size: 2.8rem;
+        }
+        p {
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+    }
+}
+
+
+@media  screen and (max-width: 260px) {
+    * {
+        display: none;
+    }
+}

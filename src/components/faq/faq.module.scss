@@ -1,0 +1,22 @@
+@use '../../Styles/abstract/colors.module';
+
+$font-color: #ffff;
+
+.root {
+    width: 80%;
+    max-width: 1200px;
+    margin: 10rem auto;
+    color: #fff;
+
+    .heading__wrapper {
+        background-color: map-get(map-get($map: colors.$colors, $key: primary), 700);
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 10rem;
+    }
+}
+
+
