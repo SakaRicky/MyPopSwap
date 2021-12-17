@@ -32,10 +32,10 @@ export const Header = () => {
             </svg>
             <ul className={styles.nav__list}>
                 <li className={styles.nav__item}>
-                    <a className={styles.nav__link} href="#"> How it works</a>
+                    <a className={styles.nav__link} href="/"> How it works</a>
                 </li>
                 <li className={styles.nav__item}>
-                    <a className={styles.nav__link} href="#"> FAQ </a>
+                    <a className={styles.nav__link} href="/"> FAQ </a>
                 </li>
                 <li className={`${styles.nav__item} ${styles.dropdown}`}>
                     <div className={styles.dropdown__label} onClick={handleShowLanguages}>
@@ -44,11 +44,11 @@ export const Header = () => {
                     </div>
                     
                     <div style={{display: showLanguagesStyle, transition: "all 100ms ease-in-out"}} className={styles.dropdown__content}>
-                        <a className={styles.nav__link} href="#">English</a>
-                        <a className={styles.nav__link} href="#">French</a>
+                        <a className={styles.nav__link} href="/">English</a>
+                        <a className={styles.nav__link} href="/">French</a>
                     </div> 
                 </li>
-                <li className={styles.nav__item}> <a className={`${styles.nav__link} ${styles.connect}`} href="#"> Connect Wallet </a> </li>
+                <li className={styles.nav__item}> <a className={`${styles.nav__link} ${styles.connect}`} href="/"> Connect Wallet </a> </li>
             </ul>
         </nav>
 
@@ -60,7 +60,7 @@ export const Header = () => {
                     <span></span>
                 </div>
                 
-                <a href="#">
+                <a href="/">
                     <img src = { logo } alt="logo" />
                 </a>
 
@@ -69,10 +69,10 @@ export const Header = () => {
                 <nav className={styles.nav}>
                     <ul className={styles.nav__list}>
                         <li className={styles.nav__item}>
-                            <a className={styles.nav__link} href="#"> How it works</a>
+                            <a className={styles.nav__link} href="/"> How it works</a>
                         </li>
                         <li className={styles.nav__item}>
-                            <a className={styles.nav__link} href="#"> FAQ </a>
+                            <a className={styles.nav__link} href="/"> FAQ </a>
                         </li>
                         <li className={`${styles.nav__item} ${styles.dropdown}`}>
                             <div className={styles.dropdown__label} onClick={handleShowLanguages}>
@@ -81,13 +81,13 @@ export const Header = () => {
                             </div>
                             
                             <div style={{display: showLanguagesStyle, transition: "all 100ms ease-in-out"}} className={styles.dropdown__content}>
-                                <a className={styles.nav__link} href="#">English</a>
-                                <a className={styles.nav__link} href="#">French</a>
+                                <a className={styles.nav__link} href="/">English</a>
+                                <a className={styles.nav__link} href="/">French</a>
                             </div> 
                         </li>
                     </ul>
                 </nav>
-                <a className={`${styles.nav__link} ${styles.cta}`} href="#"> Connect Wallet </a>
+                <a className={`${styles.nav__link} ${styles.cta}`} href="/ß"> Connect Wallet </a>
             </header>
         </div>
     )

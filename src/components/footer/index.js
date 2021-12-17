@@ -23,16 +23,16 @@ export const Footer = () => {
             <div className={styles.footer__links}>
                 <div>
                     <h3 className={styles.footer__header}> Pages </h3>
-                    <a href='#'> Connect wallet </a>
-                    <a href='#'> How it works </a>
-                    <a href='#'> FAQ </a>
-                    <a href='#'> White Page </a>
+                    <a href='/'> Connect wallet </a>
+                    <a href='/'> How it works </a>
+                    <a href='/'> FAQ </a>
+                    <a href='/'> White Page </a>
                 </div>
 
                 <div>
                     <h3 className={styles.footer__header}> Social Media </h3>
-                    <a href='#'> Discord </a>
-                    <a href='#'> Twitter </a>
+                    <a href='/'> Discord </a>
+                    <a href='/'> Twitter </a>
                 </div>
 
                 <div>
