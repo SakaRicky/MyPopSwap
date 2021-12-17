@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './footer.module.css'
 
-import logo from '../../Assets/logo.svg'
 import discord from '../../Assets/discord-svgrepo-com.svg'
 import twitter from '../../Assets/twitter-svgrepo-com.svg'
 

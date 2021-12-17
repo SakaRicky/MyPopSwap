@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import SelectCoin from './SelectCoin/SelectCoin';
 import styles from './convertCoinForm.module.css';
 import coinsData from './Coins';
@@ -11,7 +11,7 @@ export const ConvertCoinForm = () => {
 
     
     return (
-        <form className={styles.form}>
+        <form className={styles.form} onSubmit={() => setCoins(coinsData)}>
             <div className={styles.form__header}>
                 <div className={styles.form__title}>Swap</div>
                 <div className={styles.form__balance}> <small>Balance:</small> {balance} ETH</div>
