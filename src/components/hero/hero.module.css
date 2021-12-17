@@ -1,7 +1,6 @@
 .root {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 5rem;
 }
 @media screen and (max-width: 768px) {
   .root {
