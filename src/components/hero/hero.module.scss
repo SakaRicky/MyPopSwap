@@ -6,6 +6,10 @@
     justify-content: space-between;
     margin: 2rem;
 
+    @media screen and (max-width: 320px) {
+        margin: 2rem 0.5rem;
+    }
+
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;

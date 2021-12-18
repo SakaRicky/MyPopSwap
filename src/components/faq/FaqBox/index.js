@@ -8,7 +8,7 @@ export const FaqBox = ({faq}) => {
         setShowQuestion(!showQuestion)
     }
 
-    const answerStyles = showQuestion ? "0" : "-100%";
+    const answerStyles = showQuestion ? "0" : "-200%";
     const titleColor = showQuestion ? "#FFE600" : "#fff";
     const icon = showQuestion ? "-" : "+";
 
